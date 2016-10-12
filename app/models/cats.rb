@@ -1,0 +1,5 @@
+class Cats < ActiveRecord::Base
+  def meow
+    puts "meow"
+  end
+end
